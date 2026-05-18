@@ -1,0 +1,21 @@
+{
+  "name": "JDR Réunion",
+  "short_name": "JDR Réunion",
+  "description": "Association de jeux de rôle sur table à La Réunion",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#121212",
+  "theme_color": "#121212",
+  "icons": [
+    {
+      "src": "/images/app/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/app/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
