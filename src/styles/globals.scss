@@ -1,0 +1,15 @@
+html,
+body,
+#__next {
+  height: 100%;
+  --theme-color-blue: #0b1d2a;
+  --theme-color-gold: #d4af37;
+}
+
+html,
+body {
+  background-color: var(--theme-color-blue);
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}

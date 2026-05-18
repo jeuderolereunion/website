@@ -1,0 +1,31 @@
+image: node:22
+
+stages:
+  - quality
+  - deploy
+
+cache:
+  paths:
+    - node_modules/
+
+lint:
+  stage: quality
+  before_script:
+    - npm install
+  script:
+    - npm run lint
+
+pages:
+  stage: deploy
+  before_script:
+    - npm ci
+  script:
+    - npm run build
+    - rm -rf public
+    - mv out public
+    - touch public/.nojekyll
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
