@@ -112,7 +112,7 @@
   margin: 0;
   max-width: 640px;
   text-shadow: 0 0 1px var(--theme-color-gold);
-`;e.s(["default",0,function(){return(0,t.jsx)(a.Container,{id:"home",children:(0,t.jsxs)(i,{children:[(0,t.jsx)(r,{src:"/images/app/logo.webp",alt:"Logo de JDR Réunion",width:120,height:120}),(0,t.jsx)(o,{children:"JDR Réunion"}),(0,t.jsx)(s,{children:"JDR Réunion est une organisation dédiée aux jeux de rôle, aux tournois, aux soirées jeux et à l'improvisation à La Réunion."}),(0,t.jsx)(s,{children:"Notre mission est de créer une communauté immersive où chacun peut explorer sa créativité et vivre des aventures uniques."})]})})}],13884)},52109,e=>{"use strict";var t=e.i(43476),n=e.i(97053),a=e.i(63167);let r=n.default.div.withConfig({displayName:"Events__Content",componentId:"sc-f5df1045-0"})`
+`;e.s(["default",0,function(){return(0,t.jsx)(a.Container,{id:"home",children:(0,t.jsxs)(i,{children:[(0,t.jsx)(r,{src:"/images/logo.webp",alt:"Logo de JDR Réunion",width:120,height:120}),(0,t.jsx)(o,{children:"JDR Réunion"}),(0,t.jsx)(s,{children:"JDR Réunion est une organisation dédiée aux jeux de rôle, aux tournois, aux soirées jeux et à l'improvisation à La Réunion."}),(0,t.jsx)(s,{children:"Notre mission est de créer une communauté immersive où chacun peut explorer sa créativité et vivre des aventures uniques."})]})})}],13884)},52109,e=>{"use strict";var t=e.i(43476),n=e.i(97053),a=e.i(63167);let r=n.default.div.withConfig({displayName:"Events__Content",componentId:"sc-f5df1045-0"})`
   max-width: 900px;
   padding: 0 1.5rem;
   text-align: center;
